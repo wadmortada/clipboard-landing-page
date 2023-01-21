@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #FFFFFF;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.clipboard-head-logo {
+    width: 3.25rem;
+    margin-top: 3rem;
+}
+
+.frist-card h1 {
+    margin-top: 1rem;
+}
+
+.frist-card p {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 1rem;
+}
+
+.down-btn {
+    margin-top: 2rem;
+}
+
+.ios-btn {
+    background-color: #26BBA5;
+    color: #FFFFFF;
+    padding: 0.5rem 1.25rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.mac-btn {
+    background-color: #6174FF;
+    color: #FFFFFF;
+    padding: 0.5rem 1.25rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+
+.second-card {
+    margin-top: 4rem;
+}
+
+.second-card p {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 1rem;
+}
+
+
+
