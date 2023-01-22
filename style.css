@@ -6,65 +6,172 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Bai Jamjuree', sans-serif;
-    background-color: #FFFFFF;
-    background-image: url(images/bg-header-desktop.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    text-align: center;
+
+@media screen and (max-width: 926px) {
+    
 }
 
-p {
-    font-weight: 200;
-    font-size: 16px;
+@media screen and (min-width: 927px) {
+    body {
+        font-family: 'Bai Jamjuree', sans-serif;
+        background-color: #FFFFFF;
+        background-image: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        margin-top: 1rem;
+    }
+    
+    h3 {
+        margin-top: 2rem;
+    }
+    
+    p {
+        font-weight: 200;
+        font-size: 16px;
+        margin-top: 1rem
+    }
+    
+    .clipboard-head-logo {
+        width: 3.25rem;
+        margin-top: 3rem;
+    }
+    
+    .frist-card p {
+        width: 30%;
+        margin-left: 35%;
+    }
+    
+    .down-btn {
+        margin-top: 2rem;
+    }
+    
+    .ios-btn {
+        background-color: #26BBA5;
+        color: #FFFFFF;
+        padding: 0.5rem 1.25rem;
+        border-radius: 1.25rem;
+        text-decoration: none;
+        margin-right: 0.5rem;
+    }
+    
+    .mac-btn {
+        background-color: #6174FF;
+        color: #FFFFFF;
+        padding: 0.5rem 1.25rem;
+        border-radius: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .second-card {
+        margin-top: 4rem;
+    }
+    
+    .second-card p {
+        width: 30%;
+        margin-left: 35%;
+    }
+    
+    .third-card {
+        display: flex;
+        gap: 5rem;
+        margin-top: 3rem;
+        text-align: left;
+    }
+    
+    .third-card h3 {
+        padding-top: 3rem;
+    }
+    
+    .third-card p {
+        margin-top: 1rem;
+        width: 75%;
+    }
+    
+    .fourth-card {
+        margin-top: 5rem;
+    }
+    
+    .fourth-card img {
+        margin-top: 3rem;
+    }
+    
+    .fifth-card {
+        margin-top: 5rem;
+    }
+    
+    .sixth-card {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .sixth-card p {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .sexth-col {
+        width: 30%;
+    }
+    
+    .company-logo {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+     .seventh-card {
+        margin-top: 4rem;
+     }
+    
+     .seventh-card p {
+        width: 60%;
+        margin: 0 20%;
+    }
+    
+    footer {
+        background-color: #F5F6F8;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1.5rem;
+        margin-top: 5rem;
+    }
+    
+    .footer-img {
+        width: 2rem;
+    }
+    
+    .site-links {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 60%;
+        text-align: left;
+    }
+    .site-links a {
+        text-decoration: none;
+    }
+    
+    .social-logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .social-logo img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }    
 }
 
-.clipboard-head-logo {
-    width: 3.25rem;
-    margin-top: 3rem;
-}
 
-.frist-card h1 {
-    margin-top: 1rem;
-}
 
-.frist-card p {
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 1rem;
-}
 
-.down-btn {
-    margin-top: 2rem;
-}
 
-.ios-btn {
-    background-color: #26BBA5;
-    color: #FFFFFF;
-    padding: 0.5rem 1.25rem;
-    border-radius: 1.25rem;
-    text-decoration: none;
-    margin-right: 0.5rem;
-}
-
-.mac-btn {
-    background-color: #6174FF;
-    color: #FFFFFF;
-    padding: 0.5rem 1.25rem;
-    border-radius: 1.25rem;
-    text-decoration: none;
-}
-
-.second-card {
-    margin-top: 4rem;
-}
-
-.second-card p {
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 1rem;
-}
 
 
 
