@@ -18,7 +18,7 @@ Clipboard landing page
 
 ## Challenge live URL 
 
-https://wadmortada.github.io/testimonials-grid-section-main/
+https://wadmortada.github.io/clipboard-landing-page/
 
 ## Finally
 
