@@ -6,35 +6,142 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #FFFFFF;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
 
-@media screen and (max-width: 926px) {
+h1 {
+    margin: 2rem 2rem 1rem 2rem;
     
 }
 
-@media screen and (min-width: 927px) {
-    body {
-        font-family: 'Bai Jamjuree', sans-serif;
-        background-color: #FFFFFF;
-        background-image: url(images/bg-header-desktop.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        text-align: center;
+h3 {
+    margin-top: 2rem;
+}
+
+p {
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 1rem
+}
+
+@media screen and (max-width: 926px) {
+    .container {
+        padding: 10%;
+
+    }
+
+    .clipboard-head-logo {
+        margin-top: 5rem;
     }
     
-    h1 {
+    .down-btn {
+        margin-top: 2rem;
+        display: grid;
+        gap: 1.5rem;
+    }
+    
+    .ios-btn {
+        background-color: #26BBA5;
+        color: #FFFFFF;
+        padding: 0.75rem 1.25rem;
+        border-radius: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .mac-btn {
+        background-color: #6174FF;
+        color: #FFFFFF;
+        padding: 0.75rem 1.25rem;
+        border-radius: 1.25rem;
+        text-decoration: none;
+    }
+    
+    .second-card {
+        margin-top: 4rem;
+    }
+
+    .allinone-img {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    
+    .third-card p {
         margin-top: 1rem;
     }
     
-    h3 {
-        margin-top: 2rem;
+    .fourth-card {
+        margin-top: 6rem;
     }
     
-    p {
-        font-weight: 200;
-        font-size: 16px;
-        margin-top: 1rem
+    .fourth-card img {
+        margin-top: 3rem;
+        width: 100%;
     }
     
+    .fifth-card {
+        margin-top: 5rem;
+    }
+    
+    .sixth-card {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .sexth-col {
+        margin-top: 3rem;
+    }
+    
+    .company-logo {
+        margin-top: 5rem;
+        display: grid;
+        gap: 3rem;
+        justify-content: center;
+    }
+    
+     .seventh-card {
+        margin-top: 5rem;
+     }
+
+    footer {
+        background-color: #F5F6F8;
+        width: 96vw;
+    }
+    
+    .footer-img {
+        width: 3.5rem;
+        padding: 2.5rem 0;
+    }
+    
+    .site-links {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .site-links a {
+        text-decoration: none;
+    }
+    
+    .social-logo {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    .social-logo img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (min-width: 927px) {
     .clipboard-head-logo {
         width: 3.25rem;
         margin-top: 3rem;
